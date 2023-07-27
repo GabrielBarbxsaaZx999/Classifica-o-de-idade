@@ -7,7 +7,7 @@ function verificarFase() {
       fase = "Criança";
     } else if (idade <= 20) {
       fase = "Adolescente";
-    } else if (idade <= 65) {
+    } else if (idade < 65) {
       fase = "Adulto";
     } else {
       fase = "Idoso";
